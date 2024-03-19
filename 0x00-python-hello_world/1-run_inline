@@ -1,0 +1,2 @@
+#!/bin/bash
+pytnon3 -c $PYCODE
