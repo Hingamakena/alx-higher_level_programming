@@ -4,4 +4,5 @@
 
 
 class Square:
+    """ private attribute __size """
     __size = None
