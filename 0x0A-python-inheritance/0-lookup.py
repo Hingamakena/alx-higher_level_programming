@@ -5,6 +5,8 @@
 
 
 def lookup(obj):
+    """ using a try block to print dir of the object """
+
     try:
         return dir(obj)
     except Error as e:
