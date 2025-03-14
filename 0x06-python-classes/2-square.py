@@ -13,6 +13,6 @@ class Square:
         except TypeError:
             print("size must be an integer")
         try:
-            size > 0
+            size > 0 and instance(size, int)
         except ValueError:
             print("size must be >= 0")
