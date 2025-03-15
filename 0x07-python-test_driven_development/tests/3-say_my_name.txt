@@ -1,0 +1,11 @@
+"""
+
+>>>say_my_name(223, "Mr Lynton")
+first_name must be a string
+
+>>>say_my_name("mr Lynton", 345):
+last_name must be a string
+
+>>>say_my_name(1, 33)
+first_name must be a string
+last_name must be a string
