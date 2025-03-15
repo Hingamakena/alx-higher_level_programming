@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
 def write_file(filename="", text=""):
-    """writes a string to text file and return no of chars"""
+    """writes a string to text file and return no of chars
+
+        using with to read and write data"""
+
     with open(filename, "rw") as f:
         f.read(filename)
         f.write(text, filename)
