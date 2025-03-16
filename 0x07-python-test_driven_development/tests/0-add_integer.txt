@@ -1,6 +1,4 @@
-"""
-
->>> add(integer(1,8)
-9
-
-"""
+>>> add_integer = __import__('0-add_integer').add_integer
+	
+>>> add_integer(2, 9)
+11
