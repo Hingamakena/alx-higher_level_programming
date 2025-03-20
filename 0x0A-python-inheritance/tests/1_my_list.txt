@@ -1,0 +1,7 @@
+"""
+>>> print_sorted = __import__('1-my_list').print_sorted
+
+>>> print_sorted([4,3,6,7,8])
+[2,3,6,7,8]
+
+"""
