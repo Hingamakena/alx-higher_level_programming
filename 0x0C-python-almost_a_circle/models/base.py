@@ -14,3 +14,7 @@ class Base:
         else:
             Base.__nb_bojects += 1
             self.id = Base._nb_objects
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testfile("test_base.txt")
