@@ -8,6 +8,5 @@ def write_file(filename="", text=""):
 
         using with to read and write data"""
 
-    with open(filename, "rw") as f:
-        f.read(filename)
-        f.write(text, filename)
+    with open(filename, 'r+', encoding="utf-8") as f:
+        f.write(text)
