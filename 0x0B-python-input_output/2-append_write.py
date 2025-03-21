@@ -6,5 +6,5 @@
 def append_write(filename="", text=""):
     """ using with to open filename """
 
-    with open(filename, "a") as filewhenopen:
-        filewhenopen.append(text)
+    with open(filename, "a") as f:
+        f.write(text)
