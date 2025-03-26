@@ -1,4 +1,4 @@
 #!/usr/bin/node
 
-// Request module
+const request = require('request');
 const MovieID = GET("https://swapi-api.alx-tools.com/api/films/:id")

@@ -2,6 +2,6 @@
 
 //script displays the status code of a GET request
 
+const request = require('request');
 
-const url = GET($1)
 
