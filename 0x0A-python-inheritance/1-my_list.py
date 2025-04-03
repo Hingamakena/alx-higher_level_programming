@@ -5,4 +5,8 @@ class MyList(list):
     """print the list, but sorted"""
 
     def print_sorted(self):
-        return self.sort()
+        return sorted(self)
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testfile('./tests/1-my_list.txt')
