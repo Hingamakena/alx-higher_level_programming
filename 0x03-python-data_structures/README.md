@@ -14,4 +14,4 @@ General
 * What is sequence unpacking
 * What is the del statement and how to use it
 
-
+Task 2: Replace an element of a list at a certain index
