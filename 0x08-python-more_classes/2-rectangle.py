@@ -2,8 +2,6 @@
 
 """ class Rectangle with height and width """
 
-:wq
-
 class Rectangle:
     def __init__(self, width=0, height=0):
         self.__width = width
@@ -23,3 +21,9 @@ class Rectangle:
 
     def height(self):
         return self.__height
+
+    def area(self):
+        return self.__width * self.__height
+
+    def perimeter(self):
+        return ((self.__width * 2) + (self.__height * 2))
