@@ -4,14 +4,18 @@
 
 
 class Rectangle:
+
+    """ Instantiation with width and height """
     def __init__(self, width=0, height=0):
         self.__width = width
         self.__height = height
 
+    """ property getter of width"""
     @property
     def width(self):
         return self.__width
 
+    """ property setter of width """
     @width.setter
     def width(self, value):
         if not isinstance(width, int):
@@ -22,10 +26,12 @@ class Rectangle:
 
         self.__width = value
 
+    """ property getter of height """
     @property
     def height(self):
         return self.__height
 
+    """ property setter of height """
     @height.setter
     def height(self, value):
         if not isinstance(value, int):
