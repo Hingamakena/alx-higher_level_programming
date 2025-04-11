@@ -9,4 +9,6 @@ def write_file(filename="", text=""):
         using with to read and write data"""
 
     with open(filename, 'r+', encoding="utf-8") as f:
+        f.read()
         f.write(text)
+        print("{}".format(len(text)))
