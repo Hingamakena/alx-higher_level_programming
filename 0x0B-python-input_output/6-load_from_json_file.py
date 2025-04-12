@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 
 """ import the json module """
-import json 
+import json
 
 """ load from json file """
+
+
 def load_from_json_file(filename):
     """ using open with with to read file """
 
