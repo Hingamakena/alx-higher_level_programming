@@ -11,5 +11,5 @@ def write_file(filename="", text=""):
     with open(filename, 'r+', encoding="utf-8") as f:
         written_data = f.write(text)
 
-        return written_data
+    return written_data
         
