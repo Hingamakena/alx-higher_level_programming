@@ -9,3 +9,5 @@ def read_file(filename=""):
     with open(filename,  encoding="utf-8") as file_handler:
         read_data = file_handler.read()
         print("{}".format(read_data))
+
+        return read_data
