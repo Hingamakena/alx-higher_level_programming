@@ -1,14 +1,18 @@
 #!/usr/bin/python3
+""" imports a module from the base module file """
 from base import Base
 
 """ class rectangle inheriting from Base"""
 
 class Rectangle(Base):
+
     """ class constructor """
-    def __init__(self, width, height, x=0, y=0, id=None):
+def __init__(self, width, height, x=0, y=0, id=None):
         """ calls the super class with id """
 
         super().id
+
+        """ rest of the locally defined attributes """
         self.__width = width
         self.__height = height
         self.__x = x
