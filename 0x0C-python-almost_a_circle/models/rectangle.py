@@ -17,3 +17,6 @@ class Rectangle(Base):
         self.__x = x
         self.__y = y
         """ inherit from super class id """
+
+    """
+    getter and setter excluding id """
