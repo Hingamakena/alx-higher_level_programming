@@ -7,7 +7,8 @@ from models.base import Base
 class Rectangle(Base):
 
     """ class constructor """
-def __init__(self, width, height, x=0, y=0, id=None):
+
+    def __init__(self, width, height, x=0, y=0, id=None):
         """ calls the super class with id """
 
         """ rest of the locally defined attributes """
@@ -15,4 +16,4 @@ def __init__(self, width, height, x=0, y=0, id=None):
         self.__height = height
         self.__x = x
         self.__y = y
-        se;f.id = 1234
+        """ inherit from super class id """
