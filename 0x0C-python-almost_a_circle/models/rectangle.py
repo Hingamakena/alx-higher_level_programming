@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """ imports a module from the base module file """
-from base import Base
+from models.base import Base
 
 """ class rectangle inheriting from Base"""
 
@@ -10,10 +10,9 @@ class Rectangle(Base):
 def __init__(self, width, height, x=0, y=0, id=None):
         """ calls the super class with id """
 
-        super().id
-
         """ rest of the locally defined attributes """
         self.__width = width
         self.__height = height
         self.__x = x
         self.__y = y
+        se;f.id = 1234

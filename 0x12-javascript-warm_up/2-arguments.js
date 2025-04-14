@@ -11,4 +11,4 @@ for (let i =1; argv[i] != null; i++){
 	}
 	else
 		console.log("Arguments found");
-};
+}
