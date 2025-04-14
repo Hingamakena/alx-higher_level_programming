@@ -24,3 +24,10 @@ class Rectangle(Base):
     """ method area returning the area of the rectangle """
     def area(self):
         return self.__width * self.__height
+
+    def display(self):
+        for i in range(0, self.__height):
+            for j in range(0,self.__width):
+                print('#',end="")
+            print('#')
+
