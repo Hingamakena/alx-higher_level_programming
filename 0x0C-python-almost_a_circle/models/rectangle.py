@@ -20,3 +20,6 @@ class Rectangle(Base):
 
     """
     getter and setter excluding id """
+
+    def area(self):
+        return self.__width * self.__height
