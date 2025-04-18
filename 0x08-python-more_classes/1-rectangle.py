@@ -7,8 +7,8 @@ class Rectangle:
     """ initialization with height and width as private """
 
     def __init__(self, height=0, width=0):
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     """ property getter of width"""
     @property
