@@ -43,3 +43,9 @@ class Rectangle:
 
     def perimeter(self):
         return ((self.__height * 2) + (self.__width * 2))
+
+    def str():
+        for i in self.__height:
+            for j in self.__width:
+                print('#', end="")
+            print('#', end="")
