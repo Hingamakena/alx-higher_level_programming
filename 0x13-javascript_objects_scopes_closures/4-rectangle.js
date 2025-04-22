@@ -7,5 +7,8 @@ class Rectangle {
       if (w <= 0){
 	this.width = //empty
       }
-
-
+  }
+  rotate();
+  print();
+  double()
+}
