@@ -1,9 +1,9 @@
 #!/usr/bin/node
 
 function findfactorial(n){
-let i = 0;
-while (n > i){
-n = n * n-1;
-n -= 1;
-}
+	while (n > 0){
+		var end_product = n * n-1;
+		n -= 1;
+		}
+	console.log(end_product);
 }
