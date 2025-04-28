@@ -2,5 +2,9 @@
 /**
  * search for the second biggest integer in args
  */
-const {argv} = require('node:process')
-console.log(argv[1])
+const argv = process.argv.slice(2);
+var i = 0;
+for (; i < argv[i]; i++)
+{
+	console.log(argv[i]);
+}
