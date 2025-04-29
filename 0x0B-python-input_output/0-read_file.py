@@ -5,6 +5,7 @@
 
 def read_file(filename=""):
     """ using with so as to automatically close the file"""
-    with open(filename, "r") as f:
+
+    with open(filename, "r", encoding="utf-8") as f:
         data = f.read()
     print(data, end="")
