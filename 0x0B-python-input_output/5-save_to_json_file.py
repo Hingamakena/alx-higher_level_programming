@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" import json module """
 import json
 
 """ function writes obj to text file in JOSN """
