@@ -6,7 +6,7 @@
 def write_file(filename="", text=""):
     """ using with for automated file closing """
 
-    with open(filename, "w") as f:
+    with open(filename, "w", encoding="utf-8") as f:
         data_written = f.write(text)
 
     return data_written
