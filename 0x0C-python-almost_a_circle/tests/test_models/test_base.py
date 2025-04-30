@@ -1,15 +1,7 @@
 #!/usr/bin/python3
-
-""" module unittest """
+""" import the unittest module """
 import unittest
 
-""" import main class Base from models/base.py """
-from models.base import Base
+""" subclass of the testing class """
+class MyUnitTesting(unittest.Unittest):
 
-"""createa a subclass of the main class unitest"""
-
-
-class TestBaseClass(unittest.TesstCase):
-
-    b1 = Base()
-    self.asseretEqual(b1.id, 1)
