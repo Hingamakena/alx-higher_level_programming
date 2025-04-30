@@ -1,13 +1,11 @@
 #!/usr/bin/python3
 
-""" read file, filename as argument"""
+""" read a text and prints it to stdout"""
 
 
 def read_file(filename=""):
-    """ reads a test file(utf*) mode and print to stdout"""
+    """ using with so as to automatically close the file"""
 
-    with open(filename,  encoding="utf-8") as file_handler:
-        read_data = file_handler.read()
-        print("{}".format(read_data))
-
-        return read_data
+    with open(filename, "r", encoding="utf-8") as f:
+        data = f.read()
+    print(data, end="")

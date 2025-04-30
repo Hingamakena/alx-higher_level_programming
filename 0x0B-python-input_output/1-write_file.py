@@ -1,15 +1,12 @@
 #!/usr/bin/python3
 
-""" write into a file, the filename and text as arguments"""
+""" function writes a string to text file """
 
 
 def write_file(filename="", text=""):
-    """writes a string to text file and return no of chars
+    """ using with for automated file closing """
 
-        using with to read and write data"""
+    with open(filename, "w", encoding="utf-8") as f:
+        data_written = f.write(text)
 
-    with open(filename, 'r+', encoding="utf-8") as f:
-        written_data = f.write(text)
-
-    return written_data
-        
+    return data_written
