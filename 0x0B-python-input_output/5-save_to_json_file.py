@@ -10,6 +10,6 @@ def save_to_json_file(my_obj, filename):
     data = json.dumps(my_obj)
 
     with open(filename, "w") as f:
-        data_written = f.write(data)
+        q = f.write(data)
 
-    return data_written
+    return (q)

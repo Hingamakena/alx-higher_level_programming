@@ -9,7 +9,9 @@ from models.base import Base
 """createa a subclass of the main class unitest"""
 
 
-class TestBaseClass(unittest.TesstCase):
+class TestBaseClass(unittest.TestCase):
+    a = Base(34)
+    b = Base()
+    b.id = 99
 
-    b1 = Base()
-    self.asseretEqual(b1.id, 1)
+    self.AssertEqual(a.id, 34)

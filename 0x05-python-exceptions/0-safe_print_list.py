@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 
+""" print x elements of a list """
 def safe_print_list(my_list=[], x=0):
+    """ loop through list and print x elements """
     try:
-        for i in range(0, my_list[x]):
-            print("{:d}".format(my_list[i]))
-    except TypeError as e:
-        print("string format not supported")
+        for i in range(0, x):
+            print(my_list[i])
+    except Exception as e:
+        return None
