@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-
-""" class REctangle defining a rectangle """
+""" class Rectangle defining a class rectangle based on the previous
+    rectangle """
 
 
 class Rectangle:
