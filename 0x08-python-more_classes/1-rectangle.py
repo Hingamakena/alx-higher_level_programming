@@ -1,9 +1,11 @@
 #!/usr/bin/python3
+
 """ class Rectangle defining a class rectangle based on the previous
     rectangle """
 
 
 class Rectangle:
+
     """ private instances """
     def __init__(self, width=0, height=0):
         self.width = width
@@ -13,7 +15,8 @@ class Rectangle:
     @property
     def width(self):
         return self.width
-
+    
+    """ property width setter """
     @width.setter
     def width(self, value):
         if not isinstance(int, value):
@@ -22,11 +25,13 @@ class Rectangle:
             raise ValueError("Width must be >= 0")
         self.width = value
 
+    """ property height getter """
     @property
     def height(self):
         """ height getter method """
         return self.height
 
+    """ property height setter """
     @height.setter
     """ height setter method """
     def height(self, value):
