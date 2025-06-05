@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 
-""" class rectangle with height and width """
-
+""" Defines a Rectangle class with width and height attributes """
 
 class Rectangle:
 
-    """ private instances """
+    """ Rectangle class with width and height properties """
     def __init__(self, width=0, height=0):
         self.width = width
         self.height = height
