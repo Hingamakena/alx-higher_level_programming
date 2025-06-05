@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
-""" class Rectangle defining a class rectangle based on the previous
-    rectangle """
+""" class rectangle with height and width """
 
 
 class Rectangle:
