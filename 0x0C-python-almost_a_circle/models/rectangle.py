@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from base import Base
+from models.base import Base
 
 """ class Rectangle inherits from Base class """
 
@@ -14,7 +14,7 @@ class Rectangle(Base):
             height - a property of instance
             id - an inherited property of instance
         """
-        super.__init__(id)
+        super().__init__(id)
         self.width = width
         self.height = height
         self.x = x
