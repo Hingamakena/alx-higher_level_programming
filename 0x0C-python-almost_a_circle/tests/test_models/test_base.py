@@ -8,4 +8,11 @@ from models.base import Base
 
 
 class TestBaseClass(unittest.TestCase):
-    
+    model_one = Base()
+    model_two = Base()
+
+    self.AssertNotEqual(model_one.id, model_two.id)
+
+
+if __name__ == "__main__":
+    unittest.main()
