@@ -78,7 +78,7 @@ class Rectangle(Base):
         if value <= 0:
             raise ValueError("width must be > 0")
         self.__width = value
-    
+
     """ setter of the x property """
     @x.setter
     def x(self, value):
