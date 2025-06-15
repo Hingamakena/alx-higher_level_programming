@@ -12,11 +12,20 @@ class Rectangle(Base):
     """
 
     def __init__(self, width, height, x=0, y=0, id=None):
-        """ id is inherited from the baseclass
-            width a property of instance
-            height - a property of instance
-            id - an inherited property of instance
         """
+        Initialize a Rectangle instance
+
+        Args:
+            width (int): Width of rectangle (must be > 0)
+            height (int): height of rectangle (must be > 0)
+            x (int, optional):x co-ordinate (must be >= 0)
+            y (int): y-coordinate(must be >= 0)
+
+        Raises:
+            TypeError: if any attribute is not an integer
+            ValueError: if width or height less than 0
+        """
+
         super().__init__(id)
         self.width = width
         self.height = height
