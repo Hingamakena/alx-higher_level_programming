@@ -6,7 +6,10 @@ from models.base import Base
 
 class Rectangle(Base):
 
-    """ Base class inherited from module base """
+    """ Rectangle class inherits from Base
+        Represents a rectangle with x and y positions
+        Rectangle dimensions are represented with height and witdh
+    """
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """ id is inherited from the baseclass
