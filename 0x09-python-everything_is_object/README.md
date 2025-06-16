@@ -1,1 +1,1 @@
-Everything is an object
+0X09 - EVERYTHING IS AN OBJECT
